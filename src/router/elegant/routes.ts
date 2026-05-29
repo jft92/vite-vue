@@ -78,7 +78,6 @@ export const generatedRoutes: GeneratedRoute[] = [
   {
     name: 'server',
     path: '/server',
-    // @ts-expect-error elegant-router generated types don't fully support parent routes with children
     component: 'layout.base',
     meta: {
       title: 'server',
@@ -112,7 +111,6 @@ export const generatedRoutes: GeneratedRoute[] = [
   {
     name: 'system',
     path: '/system',
-    // @ts-expect-error elegant-router generated types don't fully support parent routes with children
     component: 'layout.base',
     meta: {
       title: 'system',
